@@ -2,17 +2,8 @@ body {
     background-color: #ccc;
 }
 
-p {
-    text-align: center;
-}
-
 em {
     color: red;
-}
-
-#textMaior {
-    font-family: "tilt neon", sans-serif;
-    font-size: 35px;
 }
 
 h1 {
@@ -24,14 +15,22 @@ h1 {
     border-radius: 35px;
 }
 
-.itens {
-    font-family: "montserrat", sans-serif;
-    font-style: italic;
-    font-size: 23px;
-    display: inline-block;
-    width: 29%;
-    margin-right: 15%;
-    vertical-align: 80px;
+#barba{
+    list-style-type: none;
+    font-size: 15px;
+    width:25%;
+    margin-left: 60px;
+    vertical-align: 65px;
+    border-radius: 35px;
+}
+
+#cabelo{
+    list-style-type: none;
+    font-size: 15px;
+    width:25%;
+    margin-top: -54px;
+    margin-left: 60%;
+    vertical-align: 65px;
     border-radius: 35px;
 }
 
@@ -56,9 +55,40 @@ h2 {
     margin-right: 2%;
 }
 
-.imagemBeneficios {
-    width: 50%;
+
+.imgBarba {
+    margin-left: 10px;
+    width: 45%;
     border-radius: 35px;
+}
+
+.imgCabelo {
+    margin-left: 100px;
+    width: 35%;
+    border-radius: 35px;
+}
+
+.conjunto {
+    list-style-type: none;
+    background-color: rgb(134, 129, 129);
+    border-radius: 100%;
+}
+
+.imgBarba2 {
+    margin-top: 2%;
+    margin-left: 30%;
+    width: 20%;
+    border-radius: 35px;
+}
+
+.imgCabelo2 {
+    margin-left: 3%;
+    width: 16%;
+    border-radius: 35px;
+}
+
+#precoConjunto {
+    margin-top: 0%;
 }
 
 header {
@@ -72,15 +102,6 @@ header ul a{
     color: rgb(130, 30, 30);
     text-decoration: none;
 }
-
-.beneficios {
-    font-family: "montserrat", sans-serif;
-}
-
-#sobre {
-    font-family: "montserrat", sans-serif;
-}
-#slogan {
-    margin-top: -1%;
+.beneficios h2 {
     font-family: "montserrat", sans-serif;
 }
