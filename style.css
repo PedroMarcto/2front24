@@ -41,19 +41,32 @@ h2 {
     background-color: rgb(229, 226, 226);
     border-radius: 35px;
 }
+.rodape a{
+    display: flex;
+    align-items: center;
+}
 
 .rodape{
+    margin-left: 27%;
     font-family: "poppins", sans-serif;
     list-style-type: none;
     font-size: 23px;
-    display: inline;
-    width: 20%;
+    display: flex;
+    width: 100%;
     vertical-align: 65px;
     border-radius: 35px;
 }
-.rodape li {
+.rodape li{
     display: inline;
     margin-right: 2%;
+}
+.rodape a {
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.rodape a:hover{
+    transform: translateY(-5px);
+    color: red;
 }
 
 .imagemBeneficios {
@@ -69,7 +82,7 @@ header {
 }
 
 header ul a{
-    color: rgb(130, 30, 30);
+    color: rgb(168, 161, 161);
     text-decoration: none;
 }
 
