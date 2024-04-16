@@ -5,7 +5,9 @@ body {
 em {
     color: red;
 }
-
+.titulo {
+    font-family: "poppins", sans-serif;
+}
 h1 {
     text-align: center;
 }
@@ -19,7 +21,7 @@ h1 {
     list-style-type: none;
     font-size: 15px;
     width:25%;
-    margin-left: 60px;
+    margin-left: 9%;
     vertical-align: 65px;
     border-radius: 35px;
 }
@@ -29,7 +31,7 @@ h1 {
     font-size: 15px;
     width:25%;
     margin-top: -54px;
-    margin-left: 60%;
+    margin-left: 56%;
     vertical-align: 65px;
     border-radius: 35px;
 }
@@ -47,7 +49,7 @@ h2 {
 }
 
 .rodape{
-    margin-left: 34%;
+    margin-left: 36%;
     font-family: "poppins", sans-serif;
     list-style-type: none;
     font-size: 23px;
@@ -70,38 +72,47 @@ h2 {
 }
 
 .imgBarba {
-    margin-left: 10px;
-    width: 45%;
+    margin-left: 8%;
+    width: 350px;
+    height: 350px;
     border-radius: 35px;
 }
 
 .imgCabelo {
-    margin-left: 100px;
-    width: 35%;
+    margin-left: 8%;
+    width: 350px;
+    height: 350px;
     border-radius: 35px;
 }
 
 .conjunto {
+    margin-top: 6%;
+    margin-left: 24%;
     list-style-type: none;
-    background-color: rgb(134, 129, 129);
-    border-radius: 100%;
+    width: 485px;
+    height: 485px;
+    background-color: rgb(229, 226, 226);
+    border-radius: 50%;
 }
 
 .imgBarba2 {
-    margin-top: 2%;
-    margin-left: 30%;
-    width: 20%;
-    border-radius: 35px;
+    margin-top: 20%;
+    margin-left: 17%;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
 }
 
 .imgCabelo2 {
+    margin-top: 30%;
     margin-left: 3%;
-    width: 16%;
-    border-radius: 35px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
 }
 
 #precoConjunto {
-    margin-top: 0%;
+    margin-top: 15%;
 }
 
 header {
@@ -112,7 +123,7 @@ header {
 }
 
 header ul a{
-    color: rgb(168, 161, 161);
+    color: rgb(90, 90, 90);
     text-decoration: none;
 }
 .beneficios h2 {
